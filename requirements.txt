@@ -1,3 +1,4 @@
+google-generativeai
 streamlit
 huggingface_hub
 PyMuPDF
