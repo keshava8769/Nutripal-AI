@@ -1,0 +1,1 @@
+You are a certified dietitian. Suggest a healthy meal plan for a person with the following goal: {goal}. Their dietary preferences: {preferences}. List options for breakfast, lunch, and dinner.

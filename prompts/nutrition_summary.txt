@@ -1,0 +1,7 @@
+You are a helpful AI nutrition assistant.
+
+Given the following extracted nutrition label text:
+
+{content}
+
+Summarize the key nutritional information in simple and clear terms, such as calorie count, major nutrients (fats, carbohydrates, protein), and any vitamins or minerals that stand out.

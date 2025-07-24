@@ -1,0 +1,1 @@
+Generate a simple weekly meal plan for someone with the goal: {goal}. Mention breakfast, lunch, dinner for 7 days. Keep meals balanced, healthy, and budget-friendly.
