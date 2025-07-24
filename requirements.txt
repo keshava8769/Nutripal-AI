@@ -3,3 +3,4 @@ huggingface_hub
 PyMuPDF
 transformers
 Pillow
+python-dotenv
