@@ -20,13 +20,22 @@ logo_base64 = image_to_base64("assets/logo.png")
 st.markdown(
     f"""
     <div style='display: flex; align-items: center; gap: 20px;'>
-        <img src='data:image/png;base64,{logo_base64}' width='150'>
-         <h1 style='margin: 0; white-space: nowrap;'> NutriPal AI - Your Nutrition Assistant</h1>
+        <img src='data:image/png;base64,{logo_base64}' width='300'>
+         <h1 style='margin: 0; white-space: nowrap;'>Your Nutrition Assistant</h1>
     </div>
     """,
     unsafe_allow_html=True
 )
 
+st.sidebar.markdown(
+    f"""
+    <div style='text-align: center;'>
+        <img src='data:image/png;base64,{logo_base64}' width='200'>
+    </div>
+    <hr>
+    """,
+    unsafe_allow_html=True
+)
 
 page = st.sidebar.radio("Choose a feature", [
     "Meal Recommendation",
